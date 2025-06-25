@@ -2,7 +2,7 @@
 
 An interactive web app that lets you **generate mazes** and **visualize pathfinding algorithms** in action. Designed for learning, exploration, and fun! 🔍
 
-![Maze Demo](https://github.com/Ayush-Aditya/Maze-Generator-and-Pathfinding-Visualizer/assets/your-demo.gif)
+![Maze Demo](https://github.com/Ayush-Aditya/Maze-Generator-and-Pathfinding-Visualizer/blob/main/Screenshot%202025-06-26%20004927.png)
 
 ---
 
