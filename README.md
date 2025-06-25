@@ -1,35 +1,128 @@
-# PATHFINDING AND MAZE GENERATION VISUALIZER
+# 🧠 Maze Generator & Pathfinding Visualizer
 
-Graphical User Interface built using React Framework to visualize Pathfinding Algorithms and Maze Generation Algorithms. Feel free to fork or download this project if you would like to try this out or use this code as the base to create your own Pathfinding Visualizer.
+An interactive web app that lets you **generate mazes** and **visualize pathfinding algorithms** in action. Designed for learning, exploration, and fun! 🔍
 
-[Check out the visualizer in action here. Experiment with the pathfinding and maze generation algorithms.](https://rohithaug.github.io/pathfinding-visualizer/)
+![Maze Demo](https://github.com/Ayush-Aditya/Maze-Generator-and-Pathfinding-Visualizer/assets/your-demo.gif)
 
-## Sample (Dijkstra's Algorithm with Recursive Division Maze): 
+---
 
-<p align="center">
-  <img src="sample.gif" width="880">
-</p>
+## 🌐 Live Preview
 
-## Pathfinding Algorithms:
-1. Dijkstra's Algorithm
-2. A* Algorithm
-3. Greedy Best First Search
-4. Bidirectional Greedy Search
-5. Breadth First Search
-6. Depth First Search
-7. Random Walk
+👉 [**Click here to try it out!**](https://ayush-aditya.github.io/Maze-Generator-and-Pathfinding-Visualizer/)
 
-## Maze Generation Algorithms:
-1. Random Maze
-2. Recursive Division Maze
-3. Vertical Division Maze
-4. Horizontal Division Maze
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Features
 
-## Thank you
+- 🎲 **Maze Generation**
+  - Random Maze
+  - Recursive Division (Vertical / Horizontal)
+- 🧭 **Pathfinding Algorithms**
+  - Dijkstra’s Algorithm
+  - A* Search
+  - Breadth-First Search (BFS)
+  - Depth-First Search (DFS)
+  - Greedy Best-First Search
+- 🧱 **Interactive Grid**
+  - Click and drag to draw walls
+  - Add weights for weighted pathfinding
+  - Customize start and end points
+- ⚡ **Fast & Beautiful Visualizations**
+  - Animated step-by-step exploration
+  - Adjustable speed
+  - Color-coded node states
 
-I hope you found the project useful and interesting.
+---
 
--- [Rohith S P](https://www.linkedin.com/in/rohithsp/)
-# Maze-Generator-and-Pathfinding-Visualizer
+## 🛠️ Tech Stack
+
+| Frontend       | Tools           |
+|----------------|-----------------|
+| HTML / CSS     | Grid Styling    |
+| JavaScript     | Core Logic      |
+| React (optional)| UI Components  |
+| GitHub Pages   | Deployment      |
+| SFML (legacy)  | Previous desktop version (C++) |
+
+---
+
+## 🖥️ Getting Started
+
+### 🔧 Prerequisites
+- Node.js (v14 or newer)
+- npm or yarn
+
+### ⚙️ Installation
+
+```bash
+git clone https://github.com/Ayush-Aditya/Maze-Generator-and-Pathfinding-Visualizer.git
+cd Maze-Generator-and-Pathfinding-Visualizer
+npm install
+npm start
+App will run locally at: http://localhost:3000
+
+📂 Project Structure
+php
+Copy
+Edit
+/
+├── public/           # index.html, favicon
+├── src/
+│   ├── components/   # React components
+│   ├── algorithms/   # Pathfinding and maze logic
+│   ├── styles/       # CSS / Tailwind
+│   └── App.js        # Main UI
+├── package.json
+└── README.md
+🎮 How to Use
+Select Start/End Nodes
+Click the grid to place start and target points.
+
+Draw Walls or Weights
+Drag your mouse to draw barriers or assign weights.
+
+Choose an Algorithm
+Pick from BFS, DFS, A*, Dijkstra, etc.
+
+Visualize!
+Hit "Visualize" and watch the algorithm in action.
+
+Generate Maze
+Select a maze type to auto-generate a labyrinth.
+
+🧠 Educational Value
+Understand how algorithms work under the hood
+
+Compare time complexity & path accuracy
+
+Experiment with different maze types and layouts
+
+Great for CS students, educators, and curious developers!
+
+🔮 Upcoming Features
+📱 Mobile support & responsive layout
+
+🧩 Custom node types (e.g., teleporters, terrain)
+
+📈 Real-time stats: path cost, visited nodes
+
+🧪 Algorithm benchmarking
+
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork this repo, suggest improvements, or submit pull requests.
+
+bash
+Copy
+Edit
+git checkout -b feature/your-feature-name
+📜 License
+This project is licensed under the MIT License.
+See LICENSE for more details.
+
+🙌 Acknowledgements
+Inspired by Clement Mihailescu's visualizer
+
+Algorithm references: CLRS, Wikipedia, and personal implementations
+
+Made with ❤️ by Ayush Aditya
