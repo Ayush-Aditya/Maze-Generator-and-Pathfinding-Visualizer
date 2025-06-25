@@ -16,21 +16,23 @@ An interactive web app that lets you **generate mazes** and **visualize pathfind
 
 - 🎲 **Maze Generation**
   - Random Maze
-  - Recursive Division (Vertical / Horizontal)
+  - Recursive Division
+  - (Vertical / Horizontal)
 - 🧭 **Pathfinding Algorithms**
   - Dijkstra’s Algorithm
   - A* Search
   - Breadth-First Search (BFS)
   - Depth-First Search (DFS)
   - Greedy Best-First Search
+  - FloodFill DFS
 - 🧱 **Interactive Grid**
   - Click and drag to draw walls
   - Add weights for weighted pathfinding
-  - Customize start and end points
+  - Customise start and end points
 - ⚡ **Fast & Beautiful Visualizations**
   - Animated step-by-step exploration
   - Adjustable speed
-  - Color-coded node states
+  - Colour-coded node states
 
 ---
 
@@ -49,7 +51,7 @@ An interactive web app that lets you **generate mazes** and **visualize pathfind
 ## 🖥️ Getting Started
 
 ### 🔧 Prerequisites
-- Node.js (v14 or newer)
+- Node.js (v16 or newer)
 - npm or yarn
 
 ### ⚙️ Installation
