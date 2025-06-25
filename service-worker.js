@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ayush-Aditya/Maze-Generator-and-Pathfinding-Visualizer/precache-manifest.8609bba6505eeb110f63e749cdbc9265.js"
+  "/Maze-Generator-and-Pathfinding-Visualizer/precache-manifest.41b3a0af52cfd64d9defb51c0f0565e9.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Ayush-Aditya/Maze-Generator-and-Pathfinding-Visualizer/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Maze-Generator-and-Pathfinding-Visualizer/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
